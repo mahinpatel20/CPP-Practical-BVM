@@ -34,5 +34,9 @@ int main()
         result=n1/n2;
         cout<<"Result is:"<<result;
     }
+    else 
+    {
+        cout<<"Invalid Choice";
+    }
     return 0;
 }

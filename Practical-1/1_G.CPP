@@ -9,7 +9,6 @@ int main()
     for (i = 2; i <= n; i++)
     {
         prime = 1;
-
         for (j = 2; j < i; j++)
         {
             if (i % j == 0)
@@ -18,7 +17,6 @@ int main()
                 break;
             }
         }
-
         if (prime == 1)
         {
             cout << i << " ";
